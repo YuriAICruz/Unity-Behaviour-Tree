@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using Graphene.BehaviourTree.Nodes;
 
-namespace Graphene.BehaviourTree.Composite
+namespace Graphene.BehaviourTree.Composites
 {
     public class Composite : BaseNode
     {

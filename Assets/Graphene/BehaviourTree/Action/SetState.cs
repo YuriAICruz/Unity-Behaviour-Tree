@@ -1,4 +1,4 @@
-﻿namespace Graphene.BehaviourTree.Action
+﻿namespace Graphene.BehaviourTree.Actions
 {
     public class SetState : Action
     {

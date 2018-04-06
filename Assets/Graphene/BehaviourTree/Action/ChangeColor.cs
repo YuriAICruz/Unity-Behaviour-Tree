@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 
-namespace Graphene.BehaviourTree.Action
+namespace Graphene.BehaviourTree.Actions
 {
     public class ChangeColor : Action
     {

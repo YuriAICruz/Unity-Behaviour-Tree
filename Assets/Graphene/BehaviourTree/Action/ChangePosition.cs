@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine;
 
-namespace Graphene.BehaviourTree.Action
+namespace Graphene.BehaviourTree.Actions
 {
     public class ChangePosition : Action
     {

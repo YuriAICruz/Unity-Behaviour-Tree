@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Graphene.BehaviourTree.Composite
+namespace Graphene.BehaviourTree.Composites
 {
     public class Priority : Composite
     {

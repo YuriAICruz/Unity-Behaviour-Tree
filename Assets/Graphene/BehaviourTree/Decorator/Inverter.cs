@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Graphene.BehaviourTree.Decorator
+namespace Graphene.BehaviourTree.Decorators
 {
     public class Inverter : Decorator
     {

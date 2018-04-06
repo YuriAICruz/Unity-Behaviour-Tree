@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Graphene.BehaviourTree.Action {
+namespace Graphene.BehaviourTree.Actions {
     public class Wait : Action {
         public Wait (float endTime) {
             this.endTime = endTime;

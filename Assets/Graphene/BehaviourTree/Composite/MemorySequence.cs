@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
+using UnityEngine;
 
-namespace Graphene.BehaviourTree.Composite
+namespace Graphene.BehaviourTree.Composites
 {
     public class MemorySequence : Composite
     {
