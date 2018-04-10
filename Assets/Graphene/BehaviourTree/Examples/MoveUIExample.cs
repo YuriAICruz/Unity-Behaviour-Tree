@@ -2,7 +2,6 @@
 using Graphene.BehaviourTree.Actions;
 using Graphene.BehaviourTree.Composites;
 using Graphene.BehaviourTree.Conditions;
-using Newtonsoft.Json;
 using UnityEngine;
 
 namespace Graphene.BehaviourTree.Examples
