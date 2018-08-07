@@ -10,9 +10,10 @@ namespace Graphene.BehaviourTree
         NodeCount = 99993,
         RunningChild = 99994,
         Seed = 99995,
-        Transform = 99996,
         Hp = 99997,
-        IsDead = 99998
+        IsDead = 99998,
+        TargetPosition = 99999,
+        TargetTransform= 100000,
     }
     public abstract class Node
     {

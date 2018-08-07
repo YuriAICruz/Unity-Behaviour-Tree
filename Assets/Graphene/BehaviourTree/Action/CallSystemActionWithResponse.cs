@@ -22,7 +22,6 @@
             if (action == null) return NodeStates.Failure;
 
             return action.Invoke();
-            ;
         }
     }
 }

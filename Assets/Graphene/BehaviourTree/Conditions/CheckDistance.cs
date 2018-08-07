@@ -15,13 +15,12 @@ namespace Graphene.BehaviourTree.Conditions
 
         public override NodeStates Tick(Tick tick)
         {
-            if (tick.blackboard.Get((int)InternalKeys.Transform, tick.tree.id).value == null) return NodeStates.Failure;
             if (tick.blackboard.Get(_targetId, tick.tree.id).value == null) return NodeStates.Failure;
 
-            var transform = (Transform)tick.blackboard.Get((int)InternalKeys.Transform, tick.tree.id).value;
+            var transform = tick.target.transform;
             var target = (Transform)tick.blackboard.Get(_targetId, tick.tree.id).value;
 
-            if (Vector3.Distance(transform.position, target.transform.position) <= distance)
+            if (Vector3.Distance(transform.position, target.position) <= distance)
             {
                 return NodeStates.Success;
             }
