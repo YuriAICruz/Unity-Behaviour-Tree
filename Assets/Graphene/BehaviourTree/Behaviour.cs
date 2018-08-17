@@ -18,6 +18,8 @@ namespace Graphene.BehaviourTree
 
     public class Behaviour
     {
+        public delegate NodeStates NodeResponseAction();
+        
         private const string HexDigits = "0123456789abcdef";
 
         public Guid id;
